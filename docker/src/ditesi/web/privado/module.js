@@ -11,44 +11,19 @@ app.config(function($mdThemingProvider) {
 
 app.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
 
-  $urlRouterProvider.otherwise("/pedido_ditesi");
+  $urlRouterProvider.otherwise("/ditesi");
 
   // --- preload ----
 
   $stateProvider
-  .state('preload', {
-    url:'/preload',
-    templateUrl: 'componentes/preload/index.html',
-    controller:'PreloadCtrl'
+  .state('ditesi', {
+    url:'/ditesi',
+    templateUrl: 'componentes/ditesi/index.html',
+    controller:'DitesiCtrl'
   })
-  .state('preload.bienvenido', {
-    url:'/bienvenido',
-    templateUrl: 'componentes/preload/templates/bienvenido.html',
-  })
-  .state('preload.error', {
-    url:'/error',
-    templateUrl: 'componentes/preload/templates/error.html',
-  })
-
-  // --- pedidos ----
-
-  $stateProvider
-  .state('pedidoDitesi', {
-    url:'/pedido_ditesi',
-    templateUrl: 'componentes/pedido_ditesi/index.html',
-    controller:'PedidoDitesiCtrl'
-  })
-  .state('pedidoDitesi.pedido', {
-    url:'/pedido',
-    templateUrl: 'componentes/pedido_ditesi/templates/pedido.html',
-  })
-  .state('pedidoDitesi.pedidoOk', {
-    url:'/pedido_ok',
-    templateUrl: 'componentes/pedido_ditesi/templates/pedido_registrado.html',
-  })
-  .state('pedidoDitesi.error', {
-    url:'/error',
-    templateUrl: 'componentes/pedido_ditesi/templates/error.html',
+  .state('ditesi.inicio', {
+    url:'/inicio',
+    templateUrl: 'componentes/ditesi/templates/inicio.html',
   })
 
 }]);
