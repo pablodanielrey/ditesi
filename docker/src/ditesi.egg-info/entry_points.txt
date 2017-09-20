@@ -1,0 +1,5 @@
+[console_scripts]
+flask = ditesi.web.main:main
+rest = ditesi.api.rest.main:main
+wamp = ditesi.api.wamp.main:main
+

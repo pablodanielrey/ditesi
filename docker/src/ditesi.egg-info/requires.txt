@@ -1,0 +1,11 @@
+psycopg2
+dateutils>=0.6.6
+requests
+redis
+Flask
+flask_jsontools
+Flask-OIDC
+SQLAlchemy
+httplib2
+pyjwt
+itsdangerous
