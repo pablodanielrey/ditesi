@@ -1,87 +1,148 @@
-
-.users {
-  width: 100%;
-  height: 100vh;
-  /*background-image: url(img/fondo.jpg);*/
+.ditesi .contenedorDitesi {
+  height: 100%;
 }
 
-.users.EstadoPreload .contenedorPreload {
+.ditesi .contenedorLogos {
+  margin: 10px 0 10px 0;
+}
+
+
+.ditesi .contenedorSistemas {
   display: flex;
-  display: -webkit-flex;
-  display: -moz-flex;
-}
-
-
-.users .contenedorPreload {
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  /*background: none;*/
-  background-image: url(/componentes/preload/img/imagen1.jpg);
-  /*background: url($img) top center no-repeat;*/
-  /*background-color: red !important;*/
-}
-
-.users .tamanoPreload {
-  border: 10px solid;
-  border-color: rgba(255, 255, 255, 0.3);
-  border-radius: 0.3em;
-  width: 300px;
-  height: 400px;
-  margin-left: 15%;
-
-}
-
-.users .subContenedorPreload {
-  width: 100%;
-  height: 100%;
-  padding: 20px;
-  background-color: white;
-}
-
-.users .subContenedorPreloadRedireccionando {
-  display: flex;
-  display: -webkit-flex;
-  display: -moz-flex;
-  flex-direction: column;
-  flex-direction: column;
-  flex-direction: column;
-  align-items: center;
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  width: 100%;
-  height: 100%;
-  padding: 20px;
-  background-color: white;
-}
-
-.users .imgAvatar {
-  width: 200px;
-}
-
-.users .imgCargando {
-  width: 90px;
-}
-
-.users .nombreUsuario {
-  font-size: 40px;
-}
-
-.users .preload {
-  height: 100%;
-}
-
-.preload .imgUsuario {
-  width: 200px;
-  height: 200px;
-  -webkit-clip-path: circle(50% at 50% 50%);
-clip-path: circle(50% at 50% 50%);
-}
-
-.preload .contenedorUsuario {
-  height: 99%;
+  flex-wrap: wrap;
   /*background-color: red;*/
+  width: 60%;
+  padding: 20px;
 }
 
-.preload h1 {
-  margin-top: -5px;
+.ditesi .btnSistema {
+  display: flex;
+display: -webkit-flex;
+display: -moz-flex;
+flex-direction: column;
+-webkit-flex-direction: column;
+-moz-flex-direction: column;
+align-items: center;
+-webkit-align-items: column;
+-moz-align-items: column;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 42px;
+  border: 2px solid #ECECEC;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 10px;
+  margin: 10px;
+  color: #5c5f69;
+  background-color: #eeeeee;
+  width: 130px;
+}
+
+.btn1 {
+  border-bottom: 3px solid #0493cf !important;
+}
+
+.btn1:hover {
+  background-color: #0493cf;
+  border: 2px solid #0493cf;
+  color: white;
+}
+
+.btn2 {
+  border-bottom: 3px solid #EC9122 !important;
+}
+
+.btn2:hover {
+  background-color: #EC9122;
+  border: 2px solid #EC9122;
+  color: white;
+}
+
+.btn3 {
+  border-bottom: 3px solid #92AD17 !important;
+}
+
+.btn3:hover {
+  background-color: #92AD17;
+  border: 2px solid #92AD17;
+  color: white;
+}
+
+.btn4 {
+  border-bottom: 3px solid #0066A6 !important;
+}
+
+.btn4:hover {
+  background-color: #0066A6;
+  border: 2px solid #0066A6;
+  color: white;
+}
+
+.btn5 {
+  border-bottom: 3px solid #E43E46 !important;
+}
+
+.btn5:hover {
+  background-color: #E43E46;
+  border: 2px solid #E43E46;
+  color: white;
+}
+
+.btn6 {
+  border-bottom: 3px solid #28292D !important;
+}
+
+.btn6:hover {
+  background-color: #28292D;
+  border: 2px solid #28292D;
+  color: white;
+}
+
+.btn7 {
+  border-bottom: 3px solid #804080 !important;
+}
+
+.btn7:hover {
+  background-color: #804080;
+  border: 2px solid #804080;
+  color: white;
+}
+
+.btn8 {
+  border-bottom: 3px solid #128C78 !important;
+}
+
+.btn8:hover {
+  background-color: #128C78;
+  border: 2px solid #128C78;
+  color: white;
+}
+
+.btn9 {
+  border-bottom: 3px solid #fe0682 !important;
+}
+
+.btn9:hover {
+  background-color: #fe0682;
+  border: 2px solid #fe0682;
+  color: white;
+}
+
+.btn10 {
+  border-bottom: 3px solid #00BCD4 !important;
+}
+
+.btn10:hover {
+  background-color: #00BCD4;
+  border: 2px solid #00BCD4;
+  color: white;
+}
+
+@media screen and (max-width: 720px) {
+  .ditesi .contenedorSistemas {
+
+    width: 100%;
+    padding: 20px;
+  }
+
 }
