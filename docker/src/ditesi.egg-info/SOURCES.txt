@@ -1,7 +1,0 @@
-setup.cfg
-ditesi.egg-info/PKG-INFO
-ditesi.egg-info/SOURCES.txt
-ditesi.egg-info/dependency_links.txt
-ditesi.egg-info/entry_points.txt
-ditesi.egg-info/requires.txt
-ditesi.egg-info/top_level.txt

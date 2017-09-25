@@ -36,7 +36,8 @@ setup(name='ditesi',
                             'SQLAlchemy',
                             'httplib2',
                             'pyjwt',
-                            'itsdangerous'],
+                            'itsdangerous',
+                            'microservices_common'],
           entry_points={
             'console_scripts': [
                 'wamp=ditesi.api.wamp.main:main',
