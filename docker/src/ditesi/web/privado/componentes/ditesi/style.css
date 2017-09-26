@@ -1,6 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
 .ditesi .contenedorDitesi {
   height: 100%;
 }
+
+.ditesi .contenedorCabecera {
+  width: 100%;
+  background-color: #eee;
+}
+
+.ditesi .titulos {
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+
 
 .ditesi .contenedorLogos {
   margin: 10px 0 10px 0;
