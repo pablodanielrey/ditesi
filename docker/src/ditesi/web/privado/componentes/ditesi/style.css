@@ -2,26 +2,44 @@
   box-sizing: border-box;
 }
 
-
-
 .ditesi .contenedorDitesi {
   height: 100%;
+  /*background-color: red;*/
+  background-image: url(fondo2.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
 }
 
 .ditesi .contenedorCabecera {
   width: 100%;
-  background-color: #eee;
+  margin-bottom: 20px;
+  /*background-color: #eee;*/
 }
 
 .ditesi .titulos {
   margin-right: 20px;
-  font-size: 20px;
+  font-size: 30px;
+  /*font-family: 'Chau Philomene One', sans-serif;*/
+
+}
+
+.ditesi .subTitulos {
+  /*background: red;*/
+  width: 70%;
+  border-bottom: 1px solid #ddd;
+  padding-left: 30px;
+  margin-top: 20px;
 }
 
 
 
 .ditesi .contenedorLogos {
-  margin: 10px 0 10px 0;
+  margin: 10px 0 20px 0;
+}
+
+.ditesi .logoFCE {
+  margin: 10px;
 }
 
 
@@ -29,8 +47,8 @@
   display: flex;
   flex-wrap: wrap;
   /*background-color: red;*/
-  width: 60%;
-  padding: 20px;
+  width: 70%;
+  padding: 10px 20px 10px 20px;
 }
 
 .ditesi .btnSistema {
@@ -137,12 +155,12 @@ align-items: center;
 }
 
 .btn9 {
-  border-bottom: 3px solid #fe0682 !important;
+  border-bottom: 3px solid #c920c6 !important;
 }
 
 .btn9:hover {
-  background-color: #fe0682;
-  border: 2px solid #fe0682;
+  background-color: #c920c6;
+  border: 2px solid #c920c6;
   color: white;
 }
 
@@ -156,11 +174,68 @@ align-items: center;
   color: white;
 }
 
+.btn11 {
+  border-bottom: 3px solid #571845 !important;
+}
+
+.btn11:hover {
+  background-color: #571845;
+  border: 2px solid #571845;
+  color: white;
+}
+
+.btn12 {
+  border-bottom: 3px solid #FF5733 !important;
+}
+
+.btn12:hover {
+  background-color: #FF5733;
+  border: 2px solid #FF5733;
+  color: white;
+}
+
+.btn13 {
+  border-bottom: 3px solid #A90271 !important;
+}
+
+.btn13:hover {
+  background-color: #A90271;
+  border: 2px solid #A90271;
+  color: white;
+}
+
+.btn14 {
+  border-bottom: 3px solid #5c5f69 !important;
+}
+
+.btn14:hover {
+  background-color: #5c5f69;
+  border: 2px solid #5c5f69;
+  color: white;
+}
+
+.btn15 {
+  border-bottom: 3px solid #4f6f87 !important;
+}
+
+.btn15:hover {
+  background-color: #4f6f87;
+  border: 2px solid #4f6f87;
+  color: white;
+}
+
+
+
+
 @media screen and (max-width: 720px) {
   .ditesi .contenedorSistemas {
-
     width: 100%;
     padding: 20px;
+  }
+
+  .ditesi .subTitulos {
+    width: 100%;
+
   }
 
 }
