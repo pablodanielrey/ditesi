@@ -7,31 +7,40 @@
   text-decoration: none;
   text-shadow: 0;
   padding: 0px 0px;
-
-
 }
 
 .header a, a:hover {
-    color: #9d9d9d;
-    text-decoration: none;
+  color: #9d9d9d;
+  text-decoration: none;
 }
 
 .header nav>li>a:focus, .nav>li>a:hover {
-    text-decoration: none;
-     background-color: #2d2d2d;
-   }
-
+  text-decoration: none;
+   background-color: #2d2d2d;
+ }
 
 .header .menuLeft {
  display:flex;
+ -webkit-display: flex;
+ -moz-display: flex;
  flex-direction: row;
+ -webkit-flex-direction: row;
+ -moz-flex-direction: row
  align-items: center;
+ -webkit-align-items: center;
+ -moz-align-items: center;
 }
-
-
 
 .header .iconoSistemas {
   color: #eee;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.header .iconoHamburguesa {
+  color: #EEEEEE;
+}
+
+.navbar-nav>li>a {
+  background-color: #2d2d2d;
 }
