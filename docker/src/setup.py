@@ -12,7 +12,7 @@
 from setuptools import setup, find_packages
 
 setup(name='ditesi',
-          version='0.1.0.dev0',
+          version='1.0.0',
           description='Interface web del sistema índice de todos los sistemas de la facultad',
           url='https://github.com/pablodanielrey/ditesi',
           author='Desarrollo DiTeSi, FCE',
